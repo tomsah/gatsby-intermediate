@@ -1,12 +1,13 @@
 {
   "name": "theme-dev",
   "version": "1.0.0",
-  "main": "gatsby-config.js",
+  "main": "index.js",
   "author": "thomas salah",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "develop": "gatsby develop"
+    "develop": "gatsby develop",
+    "wp": "yarn workspace theme-dev develop"
   },
   "dependencies": {
     "gatsby": "^2.24.11",
